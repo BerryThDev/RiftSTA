@@ -1,0 +1,43 @@
+# List a set of keywords separated by |
+# for each one then put what you would like to reply when many of those keywords are found in a message
+Questions:
+  # To break lines in the answer use \n and &<Minecraft colour code> to change text colour
+  How are you:
+    Keywords: "hi|hello"
+    Answer: "Hey! How are you?"
+  Discord:
+    Keywords: "discord"
+    Answer: "Our discord is discord.com"
+  Reporting:
+    Keywords: "report|cheater"
+    Answer: "&cTo report a cheater\n open a ticket with our staff"
+  Rules:
+    Keywords: "rules"
+    Answer: "Our rules are 1. No cheating"
+
+# Allows to the change how sensitive it is to mistakes in the spelling and other mistakes
+# (Lower values allow for less mistakes than higher ones but will be more inaccurate)
+Settings:
+  Sensitivity: 2
+  # When enabled the "difference between them" is the sensitivity value needed to count as a match to the keyword
+  Test Sensitivity: false
+
+# Text for if a match could not be found for the user
+No Matches: "No matches were found!"
+
+Ask Question Message: "How can I help today?"
+
+# Simple words who's short length can cause false matches and are not important to the keyword comparison
+Ignore Words:
+  - "what"
+  - "why"
+  - "how"
+  - "who"
+  - "i"
+  - "can"
+  - "the"
+  - "do"
+  - "are"
+  - "if"
+  - "is"
+  - "a"

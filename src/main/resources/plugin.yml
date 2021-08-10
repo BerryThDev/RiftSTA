@@ -1,0 +1,8 @@
+name: RiftSTA
+version: 1.0.0
+main: me.berry.riftSTA.RiftSTA
+
+commands:
+  ask:
+    description: Allows the inputed user to ask a question
+    permission: systemterminal.commands.ask
